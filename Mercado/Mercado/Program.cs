@@ -49,7 +49,6 @@ class Program
         Console.WriteLine("Descrição do Produto: ");
         produto.Descricao = Console.ReadLine();
 
-        //Verificação se o valor é válido.
         Console.WriteLine("Valor do Produto: ");
         produto.Valor = Convert.ToDecimal(Console.ReadLine());
 
@@ -88,6 +87,7 @@ class Program
             }
         }
 
+        //Opção de novo cadastro.
         Console.WriteLine("\n1 - Voltar ao Menu Principal.");
         Console.WriteLine("2 - Cadastrar Novo Produto.");
 
